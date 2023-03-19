@@ -135,6 +135,7 @@ li {
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
+  background: rgba(21, 34, 43, 0.85);
 }
 
 #header.header-scrolled,
@@ -1129,9 +1130,9 @@ section {
 .portfolio #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
-  padding: 8px 16px;
-  font-size: 14px;
-  font-weight: 500;
+  padding: 10px 18px;
+  font-size: 13px;
+  font-weight: 700;
   line-height: 1;
   color: #444444;
   margin: 0 3px 10px 3px;
