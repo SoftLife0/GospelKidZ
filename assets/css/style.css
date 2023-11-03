@@ -541,11 +541,44 @@ li {
   }
 }
 
+
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90%;
+}
+
+.pill-button-alternate{
+  background-color: #ca181e;
+  font: 'Poppins',sans-serif;
+  border: none;
+  color: #ca181e;
+  border-radius: 10px;
+  padding: 12px 22px;
+  box-shadow: 0 2px 8px 0 rgba(48, 44, 255, 0.1);
+  text-align: center;
+  font-weight: bold;
+  transition: width 2s;
+  background-color: white;  border: 1px solid #ca181e;
+  width: fit-content;
+
+}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 10px 0;
   overflow: hidden;
 }
 
